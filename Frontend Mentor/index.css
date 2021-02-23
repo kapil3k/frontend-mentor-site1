@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 14px;
+    color: rgb(66, 28, 82);
+    background-image: url(bg-pattern-top-desktop.svg), url(bg-pattern-bottom-desktop.svg) ;
+    background-position: left top,right bottom;
+    background-repeat: no-repeat, no-repeat;
+}
+.cointainer{
+    height: 100vh;
+    width: 70vw;
+}
+.pronrev{
+    height: auto;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+}
+.product{
+    height: auto;
+    width: 40vw;
+    box-sizing: border-box;
+    padding-right: 136px;
+    margin-top: 65px;
+}
+.review{
+    height: auto;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 122px;
+}
+h1{
+    box-sizing: border-box;
+    font-size: 48px;
+    margin-right: 66px;
+    line-height: 44px;
+    margin-bottom: 11px;
+}
+p{
+    margin-top: -21px;
+    margin-right: 97px;
+    width: 269px;
+    color: white;
+}
+#star1{
+    height: 34px;
+    background-color:rgb(246, 240, 248);
+    width: 365px;
+    padding-top: 13px;
+    padding-left: 20px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+}
+#star2{
+    height: 34px;
+    background-color: rgb(246, 240, 248);
+    width: 365px;
+    padding-top: 13px;
+    margin-top: 15px;
+    padding-left: 20px;
+    margin-left: 50px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+}
+#star3{
+    height: 34px;
+    margin-top: 15px;
+    background-color: rgb(246, 240, 248);
+    width: 365px;
+    padding-top: 13px;
+    padding-left: 20px;
+    margin-left: 100px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+}
+svg{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.icon-star1{
+    margin: 0;
+    padding: 0;
+}
+.cards{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+
+}
+.card1{
+    height: 180px;
+    width: 270px;
+    background-color: rgb(66, 28, 82);
+    border-radius: 5px;
+    margin-top: 60px;
+    padding-top: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.card2{
+    height: 180px;
+    width: 270px;
+    background-color:  rgb(66, 28, 82);
+    border-radius: 5px;
+    margin-top: 85px;
+    padding-top: 22px;
+    padding-left: 20px;
+    margin-left: 72px;
+    padding-right: 20px;
+}
+.card3{
+    height: 180px;
+    margin-left: 73px;
+    width: 270px;
+    background-color:  rgb(66, 28, 82);
+    border-radius: 5px;
+    margin-top: 110px;
+    padding-top: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.colton{
+    margin-top: -47px;
+    margin-left: 61px;
+    margin-bottom: 39px;
+    color: white;
+}
+.irene{
+    margin-top: -50px;
+    margin-left: 61px;
+    margin-bottom: 39px;
+    color: white;
+}
+.anne{
+    margin-top: -50px;
+    margin-left: 61px;
+    margin-bottom: 39px;
+    color: white;
+}
+.veri-color{
+    color: purple;
+}

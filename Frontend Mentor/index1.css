@@ -1,0 +1,104 @@
+@media only screen and (max-width: 420px){
+    body{
+        margin: 0;
+        padding: 0;
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 10px;
+    }
+    .cointainer{
+        height: auto;
+        width: auto;
+    }
+    .pronrev{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .product{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+        margin-top: 17px;
+        line-height: 29px;
+        text-align: center;
+        width: 65vw;
+        padding-left: 10px;
+    }
+    .intro{
+        width: 74vw;
+        font-size: 14px;
+        margin-top: 26px;
+        text-align: center;
+    }
+    .review{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 12px;
+    }
+    #star1{
+        height: 55px;
+        background-color: rgb(246, 240, 248);
+        width: 73vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+        font-size: 15px;
+    }
+    #star2{
+        height: 55px;
+        background-color: rgb(246, 240, 248);
+        width: 73vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+        font-size: 15px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    #star3{
+        height: 55px;
+        background-color: rgb(246, 240, 248);
+        width: 73vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+        font-size: 15px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .cards{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+    }
+    .card1{
+        margin: 0;
+        margin-top: 12px;
+        height: 150px;
+        width: 264px;
+    }
+    .card2{
+        margin: 0;
+        margin-top: 12px;
+        height: 150px;
+        width: 264px;
+    }
+    .card3{
+        margin: 0;
+        margin-top: 12px;
+        height: 150px;
+        width: 264px;
+    }
+}
